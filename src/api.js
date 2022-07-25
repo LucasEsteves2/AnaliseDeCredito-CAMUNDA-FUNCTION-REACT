@@ -3,7 +3,7 @@ import axios from "axios";
 const token = localStorage.getItem('token')
 
 export const api = axios.create({
-    baseURL: 'http://localhost:7071/api/Function1',
+    baseURL: 'http://localhost:7071/api/StartAnalise',
     headers: { 'Authorization': token }
 })
 
